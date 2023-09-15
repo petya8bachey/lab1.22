@@ -12,10 +12,10 @@ out/
 .springBeans
 .sts4-cache
 .idea
+lab1.22.iml
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/

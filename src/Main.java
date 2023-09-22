@@ -8,6 +8,7 @@ public class Main {
             doubleLinkedList.add(i);
         }
         System.out.println(doubleLinkedList);
+
         Element<Integer> nTail = doubleLinkedList.get(k - 1);
         Element<Integer> nHead = nTail.next;
         doubleLinkedList.tail.next = doubleLinkedList.head;
@@ -15,6 +16,7 @@ public class Main {
         nHead.prev = null;
         doubleLinkedList.head = nHead;
         doubleLinkedList.tail = nTail;
+
         System.out.println(doubleLinkedList);
     }
 }
